@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formularios</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="form-registro">
+      <h1>Rellene el siguiente formulario</h1>
+      <form action="" autocomplete="on">
+        <label for="nombre">
+          <input
+            class="form-registro__controles"
+            type="text"
+            id="nombre"
+            placeholder="Digite su nombre"
+            autocomplete="name"
+            required
+          />
+        </label>
+        <label for="correo">
+          <input
+            class="form-registro__controles"
+            type="email"
+            id="correo"
+            placeholder="Digite su correo"
+            autocomplete="email"
+            required
+          />
+        </label>
+        <label for="contrasenia">
+          <input
+            class="form-registro__controles"
+            type="password"
+            id="contrasenia"
+            placeholder="Digite su contraseña"
+            autocomplete="new-password"
+            required
+          />
+        </label>
+        <label for="cp">
+          <input
+            class="form-registro__controles"
+            type="text"
+            id="Color"
+            placeholder="Numero de codigo postal"
+            autocomplete="postal-code"
+            required
+          />
+        </label>
+        <input class="form-registro__boton" type="submit" id="enviar" />
+        <p id="form-registro"><a href="#">¿Ya tiene cuenta?</a></p>
+      </form>
+    </main>
+  </body>
+</html>

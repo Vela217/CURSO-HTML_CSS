@@ -1,0 +1,67 @@
+.form-registro {
+  width: 400px;
+  background-color: #0304053d;
+  padding: 35px;
+  margin: auto;
+  margin-top: 100px;
+  border: solid #fcfdfd;
+  border-radius: 15px;
+  font-family: "Arial";
+  box-shadow: 8px 10px 30px #000;
+}
+
+h1 {
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-registro__controles {
+  width: 100%;
+  background-color: #24303ca9;
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px solid #0851ee;
+  font-family: "calibri";
+  font-size: 18px;
+  margin-bottom: 16px;
+  color: aliceblue;
+}
+
+.form-registro__boton {
+  width: 100%;
+  background-color: #1f53c5;
+  border-radius: 10px;
+  border: none;
+  padding: 12px;
+  color: wheat;
+  margin: 16px 0;
+  font-size: 16px;
+}
+.form-registro__boton:active {
+  color: #d04213;
+}
+.form-registro p {
+  font-size: 20px;
+  text-align: center;
+}
+
+.form-registro a {
+  color: white;
+  text-decoration: none;
+}
+.form-registro a:hover {
+  text-decoration: underline;
+}
+.form-registro a:active {
+  color: #1f53c5;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background-image: url("https://www.solofondos.com/wp-content/uploads/2015/11/Fondos-para-p%C3%A1ginas-web.jpg");
+  }
